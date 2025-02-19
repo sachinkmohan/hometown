@@ -26,10 +26,32 @@ img {
   width: 100px;
 }
 
-.activities {
-  display: flex;
+#activity {
+  background-color: #f1faee;
+  height: 380px;
 }
 
+#activity h3 {
+  padding: 30px;
+  font-size: 24px;
+}
+
+.activities {
+  display: flex;
+  margin: 20px 0px 0px 0px;
+}
+
+.activities img {
+  border-radius: 50%;
+  height: 100px;
+  background-size: cover;
+  filter: saturate(2);
+  margin-bottom: 20px;
+}
+
+.activities p {
+  margin: 20px;
+}
 .hero {
   height: 440px;
   background-image: url("./images/pooram.jpg");
